@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bird Directory!</string>
+    <string name="action_information">Information</string>
+    <string name="action_uninstall">Uninstall</string>
+    <string name="title_activity_information">Information</string>
+    <string name="title_activity_detail">Detailed Info</string>
+</resources>

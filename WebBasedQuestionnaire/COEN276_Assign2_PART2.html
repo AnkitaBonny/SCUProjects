@@ -1,0 +1,244 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+div#test{ 
+border:solid 2px black;
+padding:40px 40px 40px 40px;
+width: 600px;
+height: 300px;
+margin-left:350px;
+margin-top:20px;
+margin-right:250px;
+margin-bottom:150px;
+text-align: center;
+}
+h1#test_status {
+width: 600px ; 
+height: 50px;
+margin-left:390px;
+margin-top:30px;
+margin-right:250px;
+margin-bottom:2px;
+text-align: center;
+}
+div#createTable{ 
+border:solid 2px black;
+padding:40px 40px 40px 40px;
+width: 600px;
+height: 300px;
+margin-left:350px;
+margin-top:20px;
+margin-right:250px;
+margin-bottom:150px;
+text-align: center;
+}
+
+table#scoreT {
+width: 500px;
+height: 200px;
+border: 1px solid black;
+margin-left: 50px;
+}
+
+table#totalT{
+width: 500px;
+height: 50px;
+border: 1px solid black;
+margin-left: 50px;
+}
+
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+
+$(document).ready(function() {
+var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correct = 0;
+
+var questions = [
+    [ "What is 6 + 4?", "10", "14", "16", "A" ],
+	[ "What is 30 - 19?", "17", "11", "19", "B" ],
+	[ "What is 6 x 3?", "21", "24", "18", "C" ],
+	[ "What is 100 / 4?", "10", "25", "14", "B" ]
+];
+var radioChoice =[];
+
+function redo(){
+	pos = 0;
+	correct = 0;
+    radioChoice =[];
+	radioChoice.length = 0;
+    $('#createTable').remove();
+    $('#test_status').remove();
+	start();
+}
+
+function renderQuestion(){
+	$('#test').empty();
+	if(pos >= questions.length){
+        $('#test').remove();
+		scoreTable();
+		return false;
+	}
+	$("#test_status").html("Question "+(pos+1)+" of "+questions.length);
+	question = questions[pos][0];
+	chA = questions[pos][1];
+	chB = questions[pos][2];
+	chC = questions[pos][3];
+	$('#test').append("<h3>"+question+"<span id = 'img'> </span>" + "</h3>" );
+	$('#test').append(($('<input />', {type:'radio',name:'choices', value:'A'})));
+	$('#test').append($('<label />', {'text': chA}));
+	$('#test').append($('<br />'));
+
+	$('#test').append(($('<input />', {type:'radio',name:'choices', value:'B'})));
+	$('#test').append($('<label />', {'text': chB}));
+	$('#test').append($('<br />'));
+
+	$('#test').append(($('<input />', {type:'radio',name:'choices', value:'C'})));
+	$('#test').append($('<label />', {'text': chC}));
+	$('#test').append($('<br />'));
+	$('#test').append($('<br />'));
+
+
+	var $input = $('<input type="button" value="Submit" id="subImg" />');
+    $input.appendTo($('#test'));
+    $('#subImg').click(checkRadioButton);
+    $('#test').append($('<br />'));
+	$('#test').append($('<br />'));
+	$('#test').append('<img id="nextImg" src="nextbutton.jpg" />');
+	$('#nextImg').attr('width','60px','height','50px','border','0');
+	$('#nextImg').click(clickAnyChoice);
+}
+
+function clickAnyChoice() {
+	var isDisabled = $('#subImg').is(':disabled')
+	if (isDisabled) {
+		checkAnswer();
+	}
+	else {
+		alert("Please submit an answer and then proceed to next question.");
+		return false;	
+	}
+}
+
+function checkAnswer(){
+	$('input:radio').each(function() {
+  		if($(this).is(':checked')) {
+    	var choice = $(this).val();
+
+    	if(choice == questions[pos][4]){
+			correct=correct+1;
+			radioChoice.push("correct");
+			}
+
+		else if(!(choice == questions[pos][4])){
+			correct=correct+0;
+			radioChoice.push("incorrect");
+			}
+
+  		} 
+	});
+	pos++;
+	renderQuestion();
+}
+
+function checkRadioButton() {
+	var choiceAns=0;
+	$('input:radio').each(function() {
+  		if($(this).is(':checked')) {
+    		choiceAns = $(this).val();
+			$('#subImg').prop('disabled', true);
+			$('input[name=choices]').attr("disabled",true);
+		}	
+	});
+	if (choiceAns == 0) {
+		alert("Please select an answer");
+		return false;
+	}
+	else {
+		if(choiceAns == questions[pos][4]){
+			$('#img').append('<img id="greenImg" src="greentick.jpg" />');
+			$('#greenImg').attr('width','30px','height','20px','border','0');
+		}
+		else {
+			$('#img').append('<img id="redImg" src="redtick.jpg" />');
+			$('#redImg').attr('width','30px','height','20px','border','0');
+		}
+	}
+}
+
+function start(){
+    var newHeader =document.createElement("H1"); 
+	$(newHeader).attr('id', 'test_status')
+	document.body.appendChild(newHeader);
+	$("#test_status").html("Test is about to begin!!");
+
+	var newDiv = document.createElement('div');
+	$(newDiv).attr('id', 'test')
+	document.body.appendChild(newDiv);	
+	$('#test').append('<img id="theImg" src="startbutton.png" width=250px height=150px border=0  />')
+	$('#theImg').click(renderQuestion);
+
+}
+
+function scoreTable() {
+	$('#test_status').html("Test Completed");
+	var newTableDiv = document.createElement('div');
+	$(newTableDiv).attr('id', 'createTable')
+	document.body.appendChild(newTableDiv);	
+	var tbl = document.createElement('table');
+	$(tbl).attr('id', 'scoreT')
+	var tbl2 = document.createElement('table');
+    $(tbl2).attr('id', 'totalT')
+    
+	for (var i = 0; i <questions.length; i++) {
+		var tr = document.createElement('tr');
+		var tdTotal1 = document.createElement('td');
+		$(tdTotal1).css('border', '1px solid black'); 
+		$(tdTotal1).html("Question:" + (i+1));
+		tr.appendChild(tdTotal1);
+
+		var tdTotal2 = document.createElement('td');
+		$(tdTotal2).css('border', '1px solid black'); 
+		$(tdTotal2).html(radioChoice[i]);
+		tr.appendChild(tdTotal2);	
+		tbl.appendChild(tr);
+		
+	}
+		var tr2 = document.createElement('tr');
+		var total = document.createElement('td');
+		$(total).html("Total Score is: ");
+		$(total).css('border', '1px solid black'); 
+
+		var total2 = document.createElement('td');
+		$(total2).html(correct);
+		$(total2).css('border', '1px solid black'); 
+
+		tr2.appendChild(total);
+		tr2.appendChild(total2);
+		tbl2.appendChild(tr2);
+			
+	
+	$('#createTable').append(tbl);
+	$('#createTable').append(tbl2);
+	$('#createTable').append($('<br />'));
+	$('#createTable').append($('<br />'));
+	$('#createTable').append('<img id="redoImg" src="redobutton.jpg" />');
+	$('#redoImg').attr('width','60px','height','50px','border','0');
+	$('#redoImg').click(redo);
+}
+
+
+$(window).load(function() {
+      start();
+});
+
+});
+</script>
+</head>
+<body>
+
+</body>
+</html>

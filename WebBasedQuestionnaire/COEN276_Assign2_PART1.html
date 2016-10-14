@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+div#test{ 
+border:solid 2px black;
+padding:40px 40px 40px 40px;
+width: 600px;
+height: 300px;
+margin-left:350px;
+margin-top:20px;
+margin-right:250px;
+margin-bottom:150px;
+text-align: center;
+}
+h1#test_status {
+width: 600px ; 
+height: 50px;
+margin-left:390px;
+margin-top:30px;
+margin-right:250px;
+margin-bottom:2px;
+text-align: center;
+}
+div#createTable{ 
+border:solid 2px black;
+padding:40px 40px 40px 40px;
+width: 600px;
+height: 300px;
+margin-left:350px;
+margin-top:20px;
+margin-right:250px;
+margin-bottom:150px;
+text-align: center;
+}
+table#scoreT {
+width: 500px;
+height: 200px;
+border: 1px solid black;
+margin-left: 50px;
+}
+table#totalT{
+width: 500px;
+height: 50px;
+border: 1px solid black;
+margin-left: 50px;
+}
+</style>
+<script>
+
+var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correct = 0, radioChoice;
+
+var questions = [
+    [ "What is 6 + 4?", "10", "14", "16", "A" ],
+	[ "What is 30 - 19?", "17", "11", "19", "B" ],
+	[ "What is 6 x 3?", "21", "24", "18", "C" ],
+	[ "What is 100 / 4?", "10", "25", "14", "B" ]
+];
+radioChoice =[];
+
+function idOfElement(x){
+	return document.getElementById(x);
+}
+
+function redo(){
+	pos = 0;
+	correct = 0;
+	radioChoice =[];
+	radioChoice.length = 0;
+	var div1 = document.getElementById("createTable");
+    div1.parentNode.removeChild(div1);
+    var div2 = document.getElementById("test_status");
+    div2.parentNode.removeChild(div2);
+	start();
+}
+
+function renderQuestion(){
+	test = idOfElement("test");
+	if(pos >= questions.length){
+        var div = document.getElementById("test");
+        div.parentNode.removeChild(div);
+		scoreTable();
+		return false;
+	}
+
+	idOfElement("test_status").innerHTML = "Question "+(pos+1)+" of "+questions.length;
+	question = questions[pos][0];
+	chA = questions[pos][1];
+	chB = questions[pos][2];
+	chC = questions[pos][3];
+	
+	test.innerHTML = "<h3>"+question+"<span id = 'img'> </span>" + "</h3>";
+	test.innerHTML += "<input type='radio' name='choices' value='A'> "+chA+"<br>";
+	test.innerHTML += "<input type='radio' name='choices' value='B'> "+chB+"<br>";
+	test.innerHTML += "<input type='radio' name='choices' value='C'> "+chC+"<br><br>";
+	test.innerHTML += "<button id='subImg' onclick='checkRadioButton()'>Submit</button>"+"<br><br>";
+	test.innerHTML += "<img src='nextbutton.jpg' width=60px height=50px border=0 onclick='clickAnyChoice()'>";	
+}
+
+function clickAnyChoice() {
+	if (document.getElementById("subImg").disabled == true) {
+		checkAnswer();
+	}
+	else {
+		alert("Please submit an answer and then proceed to next question.");
+		return false;	
+	}
+}
+
+function checkAnswer(){
+	choices = document.getElementsByName("choices");
+	for(var i=0; i<choices.length; i++){
+		if(choices[i].checked){
+			choice = choices[i].value;
+				if(choice == questions[pos][4]){
+					correct=correct+1;
+					radioChoice.push("correct");
+				}
+				else if(!(choice == questions[pos][4])){
+					correct=correct+0;
+					radioChoice.push("incorrect");
+				}
+		}
+			
+	}
+	pos++;
+	renderQuestion();
+}
+
+function checkRadioButton() {
+	var choiceOfAns = document.getElementsByName("choices");
+	var choiceAns=0;
+	for(var i=0; i<choiceOfAns.length; i++){
+		if(choiceOfAns[i].checked){
+			var choiceAns = choiceOfAns[i].value;
+			document.getElementById("subImg").disabled = true;
+			document.getElementsByName("choices")[0].disabled = true;
+			document.getElementsByName("choices")[1].disabled = true;
+			document.getElementsByName("choices")[2].disabled = true;
+		}	
+	}
+	if (choiceAns == 0) {
+		alert("Please select an answer");
+		return false;
+	}
+	if(choiceAns == questions[pos][4]){
+		document.getElementById("img").innerHTML += "<img src='greentick.jpg' width=30px height=20px border=0 >";
+	}
+	else {
+		document.getElementById("img").innerHTML += "<img src='redtick.jpg' width=30px height=20px border=0 >";
+	}
+}
+
+function start(){
+    var newHeader =document.createElement("H1"); 
+	newHeader.id="test_status";
+	document.body.appendChild(newHeader);
+	idOfElement("test_status").innerHTML = "Test is about to begin!!";
+	var newDiv = document.createElement('div');
+	newDiv.id="test";
+	document.body.appendChild(newDiv);	
+	newDiv.innerHTML = "<img src='startbutton.png' width=250px height=150px border=0 onclick='renderQuestion()'>";
+}
+
+function scoreTable() {
+	idOfElement("test_status").innerHTML = "Test Completed";
+	var newTableDiv = document.createElement('div');
+	newTableDiv.id="createTable";
+	document.body.appendChild(newTableDiv);	
+    test2 = idOfElement("createTable");
+	var tbl = document.createElement('table');
+	tbl.id = "scoreT";
+	var tbl2 = document.createElement('table');
+	tbl2.id = "totalT";
+
+	for (var i = 0; i <questions.length; i++) {
+
+		var tr = document.createElement('tr');
+		var tdTotal1 = document.createElement('td');
+		tdTotal1.style.border="1px solid black";
+		tdTotal1.innerHTML="Question:" + (i+1);
+		tr.appendChild(tdTotal1);
+		var tdTotal2 = document.createElement('td');
+		tdTotal2.style.border="1px solid black";
+		tdTotal2.innerHTML= radioChoice[i];
+		tr.appendChild(tdTotal2);	
+		tbl.appendChild(tr);	
+	}
+
+	var tr2 = document.createElement('tr');
+	var total = document.createElement('td');
+	total.style.border="1px solid black";
+	total.innerHTML="Total Score :";
+	var total2 = document.createElement('td');
+	total2.style.border="1px solid black";
+	total2.innerHTML= correct;
+	tr2.appendChild(total);
+	tr2.appendChild(total2);
+	tbl2.appendChild(tr2);
+	test2.appendChild(tbl);
+	test2.appendChild(tbl2);
+	test2.innerHTML += "<br></br>";
+	test2.innerHTML += "<img src='redobutton.jpg' width=60px height=50px border=0 onclick='redo()'>";
+}
+
+window.addEventListener("load", start, false);
+
+</script>
+
+</head>
+<body>
+</body>
+</html>

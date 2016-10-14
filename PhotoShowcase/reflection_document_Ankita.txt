@@ -1,0 +1,5 @@
+Q) What did you like about this assignment?Answer: This assignment helped me to get familiar with JAVA Swing. First time I have builded any User Interface application!
+    Q) What did you find difficult?Answer: Find difficulty to start the assignment as its completely a new chapter to me. Most difficult part is to modify Date field and reading photos from resource folder.
+Q) Have you learned anything in this assignment that you did not know before?Answer: I have learned lot new things, as Java Swing is completely new to me. Learnt how to connect the flow in a User Interface application.
+Q) Have you used and found the references given useful?Answer: Yes references are useful. It helped me to learn about how to deal with Images.
+Any other comments that is relevant-It was a very good assignment to learn Java Swing. Feel difficulty at start but gained a lot of knowledge reading components and how to use them. If we would have get an assignment (kind of basic) before this assignment learning process would have been little easier

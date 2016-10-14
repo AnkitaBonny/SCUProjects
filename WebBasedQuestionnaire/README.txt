@@ -1,0 +1,2 @@
+Name : Ankita MukherjeeCourse name : Ê COEN276: Web Programming1Assignment number: 2(part1 & part2)The program works best in Safari.
+Once you click on 'start quiz' quiz starts. First you need to select an answer , and 'submit' the answer first. Then only you can go to next question by clicking 'next image'. After quiz completes it shows a score table for each question and total score. Click on 'redo image' to start the quiz again.

@@ -1,0 +1,2472 @@
+current max burst time: 3
+request 0 file6 size: 18 enters queue   ---   queue size: 1
+avgBurst: 3 maxBurst: 3 weight: 2 TQ: 10
+request 0 file6 18 start executing
+current max burst time: 2
+request 1 file7 size: 14 enters queue   ---   queue size: 1
+request 0 file6 18 allowed to fully execute
+avgBurst: 2 maxBurst: 2 weight: 1 TQ: 10
+request 1 file7 14 start executing
+request 1 file7 14 allowed to fully execute
+current max burst time: 934
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 934 maxBurst: 934 weight: 150 TQ: 12
+request 2 music 4672 start executing
+current max burst time: 5
+request 3 file5 size: 28 enters queue   ---   queue size: 1
+current max burst time: 7
+request 4 file4 size: 36 enters queue   ---   queue size: 2
+current max burst time: 19
+request 5 file2 size: 96 enters queue   ---   queue size: 3
+current max burst time: 47
+request 6 file1 size: 238 enters queue   ---   queue size: 4
+current max burst time: 47
+request 7 file3 size: 45 enters queue   ---   queue size: 5
+request 2 music 4672 given 12 ms to execute
+current max burst time: 47
+request 8 file7 size: 14 enters queue   ---   queue size: 6
+current max burst time: 47
+request 9 file6 size: 18 enters queue   ---   queue size: 7
+request 2 exceeded TQ and interrupted
+current max burst time: 890
+request 2 music size: 4672 enters queue   ---   queue size: 8
+avgBurst: 122 maxBurst: 890 weight: 1 TQ: 1012
+request 8 file7 14 start executing
+request 8 file7 14 allowed to fully execute
+avgBurst: 140 maxBurst: 890 weight: 2 TQ: 515
+request 9 file6 18 start executing
+request 9 file6 18 allowed to fully execute
+avgBurst: 162 maxBurst: 890 weight: 3 TQ: 350
+request 3 file5 28 start executing
+request 3 file5 28 allowed to fully execute
+avgBurst: 194 maxBurst: 890 weight: 4 TQ: 271
+request 4 file4 36 start executing
+request 4 file4 36 allowed to fully execute
+avgBurst: 241 maxBurst: 890 weight: 5 TQ: 226
+request 7 file3 45 start executing
+request 7 file3 45 allowed to fully execute
+avgBurst: 318 maxBurst: 890 weight: 6 TQ: 201
+request 5 file2 96 start executing
+request 5 file2 96 allowed to fully execute
+avgBurst: 468 maxBurst: 890 weight: 7 TQ: 194
+request 6 file1 238 start executing
+request 6 file1 238 allowed to fully execute
+avgBurst: 890 maxBurst: 890 weight: 150 TQ: 11
+request 2 music 4672 start executing
+request 2 music 4672 given 11 ms to execute
+current max burst time: 2
+request 10 file7 size: 14 enters queue   ---   queue size: 1
+current max burst time: 5
+request 11 file5 size: 28 enters queue   ---   queue size: 2
+request 2 exceeded TQ and interrupted
+current max burst time: 883
+request 2 music size: 4672 enters queue   ---   queue size: 3
+avgBurst: 296 maxBurst: 883 weight: 1 TQ: 1179
+request 10 file7 14 start executing
+request 10 file7 14 allowed to fully execute
+avgBurst: 444 maxBurst: 883 weight: 3 TQ: 442
+request 11 file5 28 start executing
+request 11 file5 28 allowed to fully execute
+avgBurst: 883 maxBurst: 883 weight: 150 TQ: 11
+request 2 music 4672 start executing
+request 2 music 4672 given 11 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 860
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 860 maxBurst: 860 weight: 150 TQ: 11
+request 2 music 4672 start executing
+request 2 music 4672 given 11 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 836
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 836 maxBurst: 836 weight: 150 TQ: 11
+request 2 music 4672 start executing
+request 2 music 4672 given 11 ms to execute
+current max burst time: 7
+request 12 file4 size: 36 enters queue   ---   queue size: 1
+current max burst time: 7
+request 13 file6 size: 18 enters queue   ---   queue size: 2
+current max burst time: 9
+request 14 file3 size: 45 enters queue   ---   queue size: 3
+request 2 exceeded TQ and interrupted
+current max burst time: 808
+request 2 music size: 4672 enters queue   ---   queue size: 4
+avgBurst: 206 maxBurst: 808 weight: 2 TQ: 507
+request 13 file6 18 start executing
+request 13 file6 18 allowed to fully execute
+avgBurst: 274 maxBurst: 808 weight: 4 TQ: 270
+request 12 file4 36 start executing
+request 12 file4 36 allowed to fully execute
+avgBurst: 408 maxBurst: 808 weight: 5 TQ: 243
+request 14 file3 45 start executing
+request 14 file3 45 allowed to fully execute
+avgBurst: 808 maxBurst: 808 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 780
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 780 maxBurst: 780 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 7
+request 15 file4 size: 36 enters queue   ---   queue size: 1
+current max burst time: 7
+request 16 file5 size: 28 enters queue   ---   queue size: 2
+current max burst time: 9
+request 17 file3 size: 45 enters queue   ---   queue size: 3
+current max burst time: 19
+request 18 file2 size: 96 enters queue   ---   queue size: 4
+current max burst time: 47
+request 19 file1 size: 238 enters queue   ---   queue size: 5
+current max burst time: 47
+request 20 file7 size: 14 enters queue   ---   queue size: 6
+current max burst time: 47
+request 21 file6 size: 18 enters queue   ---   queue size: 7
+current max burst time: 748
+request 2 music size: 4672 enters queue   ---   queue size: 8
+avgBurst: 105 maxBurst: 748 weight: 1 TQ: 853
+request 20 file7 14 start executing
+request 20 file7 14 allowed to fully execute
+avgBurst: 119 maxBurst: 748 weight: 2 TQ: 433
+request 21 file6 18 start executing
+request 21 file6 18 allowed to fully execute
+avgBurst: 139 maxBurst: 748 weight: 3 TQ: 295
+request 16 file5 28 start executing
+request 16 file5 28 allowed to fully execute
+avgBurst: 166 maxBurst: 748 weight: 4 TQ: 228
+request 15 file4 36 start executing
+request 15 file4 36 allowed to fully execute
+avgBurst: 205 maxBurst: 748 weight: 5 TQ: 190
+request 17 file3 45 start executing
+request 17 file3 45 allowed to fully execute
+avgBurst: 271 maxBurst: 748 weight: 6 TQ: 169
+request 18 file2 96 start executing
+current max burst time: 748
+request 22 file7 size: 14 enters queue   ---   queue size: 3
+request 18 file2 96 allowed to fully execute
+avgBurst: 265 maxBurst: 748 weight: 1 TQ: 1013
+request 22 file7 14 start executing
+request 22 file7 14 allowed to fully execute
+avgBurst: 397 maxBurst: 748 weight: 7 TQ: 163
+request 19 file1 238 start executing
+request 19 file1 238 allowed to fully execute
+avgBurst: 748 maxBurst: 748 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+current max burst time: 3
+request 23 file6 size: 18 enters queue   ---   queue size: 1
+current max burst time: 5
+request 24 file5 size: 28 enters queue   ---   queue size: 2
+current max burst time: 7
+request 25 file4 size: 36 enters queue   ---   queue size: 3
+current max burst time: 9
+request 26 file3 size: 45 enters queue   ---   queue size: 4
+request 2 exceeded TQ and interrupted
+current max burst time: 732
+request 2 music size: 4672 enters queue   ---   queue size: 5
+avgBurst: 151 maxBurst: 732 weight: 2 TQ: 441
+request 23 file6 18 start executing
+request 23 file6 18 allowed to fully execute
+avgBurst: 188 maxBurst: 732 weight: 3 TQ: 306
+request 24 file5 28 start executing
+request 24 file5 28 allowed to fully execute
+avgBurst: 249 maxBurst: 732 weight: 4 TQ: 245
+request 25 file4 36 start executing
+request 25 file4 36 allowed to fully execute
+avgBurst: 370 maxBurst: 732 weight: 5 TQ: 220
+request 26 file3 45 start executing
+request 26 file3 45 allowed to fully execute
+avgBurst: 732 maxBurst: 732 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 715
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 715 maxBurst: 715 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 687
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 687 maxBurst: 687 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 660
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 660 maxBurst: 660 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 625
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 625 maxBurst: 625 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 19
+request 27 file2 size: 96 enters queue   ---   queue size: 1
+current max burst time: 19
+request 28 file4 size: 36 enters queue   ---   queue size: 2
+current max burst time: 19
+request 29 file3 size: 45 enters queue   ---   queue size: 3
+current max burst time: 19
+request 30 file5 size: 28 enters queue   ---   queue size: 4
+current max burst time: 47
+request 31 file1 size: 238 enters queue   ---   queue size: 5
+current max burst time: 47
+request 32 file7 size: 14 enters queue   ---   queue size: 6
+current max burst time: 47
+request 33 file6 size: 18 enters queue   ---   queue size: 7
+current max burst time: 620
+request 2 music size: 4672 enters queue   ---   queue size: 8
+avgBurst: 89 maxBurst: 620 weight: 1 TQ: 709
+request 32 file7 14 start executing
+request 32 file7 14 allowed to fully execute
+avgBurst: 101 maxBurst: 620 weight: 2 TQ: 360
+request 33 file6 18 start executing
+request 33 file6 18 allowed to fully execute
+avgBurst: 117 maxBurst: 620 weight: 3 TQ: 245
+request 30 file5 28 start executing
+request 30 file5 28 allowed to fully execute
+avgBurst: 140 maxBurst: 620 weight: 4 TQ: 190
+request 28 file4 36 start executing
+request 28 file4 36 allowed to fully execute
+avgBurst: 173 maxBurst: 620 weight: 5 TQ: 158
+request 29 file3 45 start executing
+request 29 file3 45 allowed to fully execute
+avgBurst: 228 maxBurst: 620 weight: 6 TQ: 141
+request 27 file2 96 start executing
+request 27 file2 96 allowed to fully execute
+avgBurst: 333 maxBurst: 620 weight: 7 TQ: 136
+request 31 file1 238 start executing
+request 31 file1 238 allowed to fully execute
+avgBurst: 620 maxBurst: 620 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 606
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 606 maxBurst: 606 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 583
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 583 maxBurst: 583 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 557
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 557 maxBurst: 557 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 535
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 535 maxBurst: 535 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 504
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 504 maxBurst: 504 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 9
+request 34 file3 size: 45 enters queue   ---   queue size: 1
+current max burst time: 9
+request 35 file4 size: 36 enters queue   ---   queue size: 2
+current max burst time: 9
+request 36 file5 size: 28 enters queue   ---   queue size: 3
+current max burst time: 9
+request 37 file7 size: 14 enters queue   ---   queue size: 4
+current max burst time: 19
+request 38 file2 size: 96 enters queue   ---   queue size: 5
+current max burst time: 47
+request 39 file1 size: 238 enters queue   ---   queue size: 6
+current max burst time: 47
+request 40 file6 size: 18 enters queue   ---   queue size: 7
+current max burst time: 493
+request 2 music size: 4672 enters queue   ---   queue size: 8
+avgBurst: 73 maxBurst: 493 weight: 1 TQ: 566
+request 37 file7 14 start executing
+request 37 file7 14 allowed to fully execute
+avgBurst: 83 maxBurst: 493 weight: 2 TQ: 288
+request 40 file6 18 start executing
+request 40 file6 18 allowed to fully execute
+avgBurst: 96 maxBurst: 493 weight: 3 TQ: 196
+request 36 file5 28 start executing
+request 36 file5 28 allowed to fully execute
+avgBurst: 115 maxBurst: 493 weight: 4 TQ: 152
+request 35 file4 36 start executing
+request 35 file4 36 allowed to fully execute
+avgBurst: 142 maxBurst: 493 weight: 5 TQ: 127
+request 34 file3 45 start executing
+request 34 file3 45 allowed to fully execute
+avgBurst: 186 maxBurst: 493 weight: 6 TQ: 113
+request 38 file2 96 start executing
+request 38 file2 96 allowed to fully execute
+avgBurst: 270 maxBurst: 493 weight: 7 TQ: 109
+request 39 file1 238 start executing
+request 39 file1 238 allowed to fully execute
+avgBurst: 493 maxBurst: 493 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+current max burst time: 2
+request 41 file7 size: 14 enters queue   ---   queue size: 1
+current max burst time: 3
+request 42 file6 size: 18 enters queue   ---   queue size: 2
+request 2 exceeded TQ and interrupted
+current max burst time: 472
+request 2 music size: 4672 enters queue   ---   queue size: 3
+avgBurst: 159 maxBurst: 472 weight: 1 TQ: 631
+request 41 file7 14 start executing
+request 41 file7 14 allowed to fully execute
+avgBurst: 237 maxBurst: 472 weight: 2 TQ: 354
+request 42 file6 18 start executing
+request 42 file6 18 allowed to fully execute
+avgBurst: 472 maxBurst: 472 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 442
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 442 maxBurst: 442 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 426
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 426 maxBurst: 426 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 394
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 394 maxBurst: 394 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 9
+request 43 file3 size: 45 enters queue   ---   queue size: 1
+current max burst time: 9
+request 44 file4 size: 36 enters queue   ---   queue size: 2
+current max burst time: 9
+request 45 file5 size: 28 enters queue   ---   queue size: 3
+current max burst time: 19
+request 46 file2 size: 96 enters queue   ---   queue size: 4
+current max burst time: 19
+request 47 file7 size: 14 enters queue   ---   queue size: 5
+current max burst time: 47
+request 48 file1 size: 238 enters queue   ---   queue size: 6
+current max burst time: 47
+request 49 file6 size: 18 enters queue   ---   queue size: 7
+current max burst time: 365
+request 2 music size: 4672 enters queue   ---   queue size: 8
+avgBurst: 57 maxBurst: 365 weight: 1 TQ: 422
+request 47 file7 14 start executing
+request 47 file7 14 allowed to fully execute
+avgBurst: 65 maxBurst: 365 weight: 2 TQ: 215
+request 49 file6 18 start executing
+request 49 file6 18 allowed to fully execute
+avgBurst: 75 maxBurst: 365 weight: 3 TQ: 146
+request 45 file5 28 start executing
+request 45 file5 28 allowed to fully execute
+avgBurst: 89 maxBurst: 365 weight: 4 TQ: 113
+request 44 file4 36 start executing
+request 44 file4 36 allowed to fully execute
+avgBurst: 110 maxBurst: 365 weight: 5 TQ: 95
+request 43 file3 45 start executing
+request 43 file3 45 allowed to fully execute
+avgBurst: 143 maxBurst: 365 weight: 6 TQ: 84
+request 46 file2 96 start executing
+request 46 file2 96 allowed to fully execute
+avgBurst: 206 maxBurst: 365 weight: 7 TQ: 81
+request 48 file1 238 start executing
+request 48 file1 238 allowed to fully execute
+avgBurst: 365 maxBurst: 365 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+current max burst time: 3
+request 50 file6 size: 18 enters queue   ---   queue size: 1
+current max burst time: 3
+request 51 file7 size: 14 enters queue   ---   queue size: 2
+current max burst time: 5
+request 52 file5 size: 28 enters queue   ---   queue size: 3
+current max burst time: 7
+request 53 file4 size: 36 enters queue   ---   queue size: 4
+request 2 exceeded TQ and interrupted
+current max burst time: 347
+request 2 music size: 4672 enters queue   ---   queue size: 5
+avgBurst: 72 maxBurst: 347 weight: 1 TQ: 419
+request 51 file7 14 start executing
+request 51 file7 14 allowed to fully execute
+avgBurst: 90 maxBurst: 347 weight: 2 TQ: 218
+request 50 file6 18 start executing
+current max burst time: 347
+request 54 file3 size: 45 enters queue   ---   queue size: 4
+request 50 file6 18 allowed to fully execute
+avgBurst: 92 maxBurst: 347 weight: 3 TQ: 146
+request 52 file5 28 start executing
+request 52 file5 28 allowed to fully execute
+avgBurst: 121 maxBurst: 347 weight: 4 TQ: 117
+request 53 file4 36 start executing
+request 53 file4 36 allowed to fully execute
+avgBurst: 178 maxBurst: 347 weight: 5 TQ: 105
+request 54 file3 45 start executing
+request 54 file3 45 allowed to fully execute
+avgBurst: 347 maxBurst: 347 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 330
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 330 maxBurst: 330 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 312
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 312 maxBurst: 312 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 294
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 294 maxBurst: 294 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 269
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 269 maxBurst: 269 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 5
+request 55 file5 size: 28 enters queue   ---   queue size: 1
+current max burst time: 7
+request 56 file4 size: 36 enters queue   ---   queue size: 2
+current max burst time: 19
+request 57 file2 size: 96 enters queue   ---   queue size: 3
+current max burst time: 19
+request 58 file3 size: 45 enters queue   ---   queue size: 4
+current max burst time: 47
+request 59 file1 size: 238 enters queue   ---   queue size: 5
+current max burst time: 232
+request 2 music size: 4672 enters queue   ---   queue size: 6
+avgBurst: 53 maxBurst: 232 weight: 3 TQ: 95
+request 55 file5 28 start executing
+request 55 file5 28 allowed to fully execute
+avgBurst: 62 maxBurst: 232 weight: 4 TQ: 73
+request 56 file4 36 start executing
+request 56 file4 36 allowed to fully execute
+avgBurst: 76 maxBurst: 232 weight: 5 TQ: 61
+request 58 file3 45 start executing
+request 58 file3 45 allowed to fully execute
+avgBurst: 99 maxBurst: 232 weight: 6 TQ: 55
+request 57 file2 96 start executing
+request 57 file2 96 allowed to fully execute
+avgBurst: 139 maxBurst: 232 weight: 7 TQ: 53
+request 59 file1 238 start executing
+request 59 file1 238 allowed to fully execute
+avgBurst: 232 maxBurst: 232 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 212
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 212 maxBurst: 212 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 194
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 194 maxBurst: 194 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 169
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 169 maxBurst: 169 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 148
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 148 maxBurst: 148 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 112
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 112 maxBurst: 112 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 7
+request 60 file4 size: 36 enters queue   ---   queue size: 1
+current max burst time: 9
+request 61 file3 size: 45 enters queue   ---   queue size: 2
+current max burst time: 9
+request 62 file5 size: 28 enters queue   ---   queue size: 3
+current max burst time: 19
+request 63 file2 size: 96 enters queue   ---   queue size: 4
+current max burst time: 47
+request 64 file1 size: 238 enters queue   ---   queue size: 5
+current max burst time: 110
+request 2 music size: 4672 enters queue   ---   queue size: 6
+avgBurst: 32 maxBurst: 110 weight: 3 TQ: 47
+request 62 file5 28 start executing
+request 62 file5 28 allowed to fully execute
+avgBurst: 38 maxBurst: 110 weight: 4 TQ: 37
+request 60 file4 36 start executing
+request 60 file4 36 allowed to fully execute
+avgBurst: 46 maxBurst: 110 weight: 5 TQ: 31
+request 61 file3 45 start executing
+request 61 file3 45 allowed to fully execute
+avgBurst: 58 maxBurst: 110 weight: 6 TQ: 28
+request 63 file2 96 start executing
+request 63 file2 96 allowed to fully execute
+avgBurst: 78 maxBurst: 110 weight: 7 TQ: 26
+request 64 file1 238 start executing
+request 64 file1 238 given 26 ms to execute
+request 64 exceeded TQ and interrupted
+task: request 64 completed
+avgBurst: 110 maxBurst: 110 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 90
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 90 maxBurst: 90 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 68
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 68 maxBurst: 68 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 44
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 44 maxBurst: 44 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+current max burst time: 16
+request 2 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 16 maxBurst: 16 weight: 150 TQ: 10
+request 2 music 4672 start executing
+request 2 music 4672 given 10 ms to execute
+request 2 exceeded TQ and interrupted
+task: request 2 completed
+current max burst time: 19
+request 65 file2 size: 96 enters queue   ---   queue size: 1
+avgBurst: 19 maxBurst: 19 weight: 6 TQ: 10
+request 65 file2 96 start executing
+request 65 file2 96 given 10 ms to execute
+request 65 exceeded TQ and interrupted
+current max burst time: 0
+request 65 file2 size: 96 enters queue   ---   queue size: 1
+avgBurst: 0 maxBurst: 0 weight: 6 TQ: 10
+request 65 file2 96 start executing
+request 65 file2 96 allowed to fully execute
+current max burst time: 47
+request 66 file1 size: 238 enters queue   ---   queue size: 1
+avgBurst: 47 maxBurst: 47 weight: 7 TQ: 13
+request 66 file1 238 start executing
+request 66 file1 238 given 13 ms to execute
+current max burst time: 19
+request 67 file2 size: 96 enters queue   ---   queue size: 1
+request 66 exceeded TQ and interrupted
+current max burst time: 20
+request 66 file1 size: 238 enters queue   ---   queue size: 2
+avgBurst: 19 maxBurst: 20 weight: 6 TQ: 10
+request 67 file2 96 start executing
+request 67 file2 96 given 10 ms to execute
+request 67 exceeded TQ and interrupted
+task: request 67 completed
+avgBurst: 20 maxBurst: 20 weight: 7 TQ: 10
+request 66 file1 238 start executing
+request 66 file1 238 given 10 ms to execute
+request 66 exceeded TQ and interrupted
+task: request 66 completed
+current max burst time: 19
+request 68 file2 size: 96 enters queue   ---   queue size: 1
+avgBurst: 19 maxBurst: 19 weight: 6 TQ: 10
+request 68 file2 96 start executing
+request 68 file2 96 given 10 ms to execute
+current max burst time: 47
+request 69 file1 size: 238 enters queue   ---   queue size: 1
+request 68 exceeded TQ and interrupted
+task: request 68 completed
+avgBurst: 47 maxBurst: 47 weight: 7 TQ: 13
+request 69 file1 238 start executing
+request 69 file1 238 given 13 ms to execute
+current max burst time: 934
+request 70 music size: 4672 enters queue   ---   queue size: 1
+request 69 exceeded TQ and interrupted
+current max burst time: 934
+request 69 file1 size: 238 enters queue   ---   queue size: 2
+avgBurst: 477 maxBurst: 934 weight: 7 TQ: 201
+request 69 file1 238 start executing
+request 69 file1 238 allowed to fully execute
+avgBurst: 934 maxBurst: 934 weight: 150 TQ: 12
+request 70 music 4672 start executing
+request 70 music 4672 given 12 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 881
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 881 maxBurst: 881 weight: 150 TQ: 11
+request 70 music 4672 start executing
+request 70 music 4672 given 11 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 859
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 859 maxBurst: 859 weight: 150 TQ: 11
+request 70 music 4672 start executing
+request 70 music 4672 given 11 ms to execute
+current max burst time: 47
+request 71 file1 size: 238 enters queue   ---   queue size: 1
+request 70 exceeded TQ and interrupted
+current max burst time: 837
+request 70 music size: 4672 enters queue   ---   queue size: 2
+avgBurst: 442 maxBurst: 837 weight: 7 TQ: 182
+request 71 file1 238 start executing
+request 71 file1 238 allowed to fully execute
+avgBurst: 837 maxBurst: 837 weight: 150 TQ: 11
+request 70 music 4672 start executing
+request 70 music 4672 given 11 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 814
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 814 maxBurst: 814 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 795
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 795 maxBurst: 795 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 775
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 775 maxBurst: 775 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 755
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 755 maxBurst: 755 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 739
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 739 maxBurst: 739 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 722
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 722 maxBurst: 722 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 704
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 704 maxBurst: 704 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 680
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 680 maxBurst: 680 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 653
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 653 maxBurst: 653 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 625
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 625 maxBurst: 625 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 603
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 603 maxBurst: 603 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 570
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 570 maxBurst: 570 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 550
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 550 maxBurst: 550 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 516
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 516 maxBurst: 516 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 491
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 491 maxBurst: 491 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 456
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 456 maxBurst: 456 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 425
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 425 maxBurst: 425 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 401
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 401 maxBurst: 401 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 374
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 374 maxBurst: 374 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 349
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 349 maxBurst: 349 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 325
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 325 maxBurst: 325 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 300
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 300 maxBurst: 300 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 265
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 265 maxBurst: 265 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 229
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 229 maxBurst: 229 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 204
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 204 maxBurst: 204 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 180
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 180 maxBurst: 180 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 163
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 163 maxBurst: 163 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 133
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 133 maxBurst: 133 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 108
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 108 maxBurst: 108 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 81
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 81 maxBurst: 81 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 50
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 50 maxBurst: 50 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 28
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 28 maxBurst: 28 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 given 10 ms to execute
+request 70 exceeded TQ and interrupted
+current max burst time: 7
+request 70 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 7 maxBurst: 7 weight: 150 TQ: 10
+request 70 music 4672 start executing
+request 70 music 4672 allowed to fully execute
+current max burst time: 934
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 934 maxBurst: 934 weight: 150 TQ: 12
+request 72 music 4672 start executing
+request 72 music 4672 given 12 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 882
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 882 maxBurst: 882 weight: 150 TQ: 11
+request 72 music 4672 start executing
+request 72 music 4672 given 11 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 860
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 860 maxBurst: 860 weight: 150 TQ: 11
+request 72 music 4672 start executing
+request 72 music 4672 given 11 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 831
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 831 maxBurst: 831 weight: 150 TQ: 11
+request 72 music 4672 start executing
+request 72 music 4672 given 11 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 799
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 799 maxBurst: 799 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 777
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 777 maxBurst: 777 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 746
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 746 maxBurst: 746 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 715
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 715 maxBurst: 715 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 690
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 690 maxBurst: 690 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 670
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 670 maxBurst: 670 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 643
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 643 maxBurst: 643 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 620
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 620 maxBurst: 620 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 600
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 600 maxBurst: 600 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 575
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 575 maxBurst: 575 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 553
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 553 maxBurst: 553 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 527
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 527 maxBurst: 527 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 503
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 503 maxBurst: 503 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 466
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 466 maxBurst: 466 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 442
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 442 maxBurst: 442 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 416
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 416 maxBurst: 416 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 391
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 391 maxBurst: 391 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 359
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 359 maxBurst: 359 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 324
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 324 maxBurst: 324 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 293
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 293 maxBurst: 293 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 260
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 260 maxBurst: 260 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 233
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 233 maxBurst: 233 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 195
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 195 maxBurst: 195 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 181
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 181 maxBurst: 181 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 166
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 166 maxBurst: 166 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 146
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 146 maxBurst: 146 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 123
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 123 maxBurst: 123 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 95
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 95 maxBurst: 95 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 73
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 73 maxBurst: 73 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 51
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 51 maxBurst: 51 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 14
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 14 maxBurst: 14 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 given 10 ms to execute
+request 72 exceeded TQ and interrupted
+current max burst time: 2
+request 72 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 2 maxBurst: 2 weight: 150 TQ: 10
+request 72 music 4672 start executing
+request 72 music 4672 allowed to fully execute
+current max burst time: 934
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 934 maxBurst: 934 weight: 150 TQ: 12
+request 73 music 4672 start executing
+request 73 music 4672 given 12 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 881
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 881 maxBurst: 881 weight: 150 TQ: 11
+request 73 music 4672 start executing
+request 73 music 4672 given 11 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 857
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 857 maxBurst: 857 weight: 150 TQ: 11
+request 73 music 4672 start executing
+request 73 music 4672 given 11 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 820
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 820 maxBurst: 820 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 785
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 785 maxBurst: 785 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 747
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 747 maxBurst: 747 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 725
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 725 maxBurst: 725 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 691
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 691 maxBurst: 691 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 664
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 664 maxBurst: 664 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 633
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 633 maxBurst: 633 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 596
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 596 maxBurst: 596 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 575
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 575 maxBurst: 575 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 552
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 552 maxBurst: 552 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 527
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 527 maxBurst: 527 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 497
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 497 maxBurst: 497 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 459
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 459 maxBurst: 459 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 428
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 428 maxBurst: 428 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 399
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 399 maxBurst: 399 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 372
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 372 maxBurst: 372 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 343
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 343 maxBurst: 343 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 311
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 311 maxBurst: 311 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 280
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 280 maxBurst: 280 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 257
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 257 maxBurst: 257 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 227
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 227 maxBurst: 227 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 192
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 192 maxBurst: 192 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 161
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 161 maxBurst: 161 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 131
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 131 maxBurst: 131 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 117
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 117 maxBurst: 117 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 93
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 93 maxBurst: 93 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 67
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 67 maxBurst: 67 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 40
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 40 maxBurst: 40 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+current max burst time: 17
+request 73 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 17 maxBurst: 17 weight: 150 TQ: 10
+request 73 music 4672 start executing
+request 73 music 4672 given 10 ms to execute
+request 73 exceeded TQ and interrupted
+task: request 73 completed
+current max burst time: 934
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 934 maxBurst: 934 weight: 150 TQ: 12
+request 74 music 4672 start executing
+request 74 music 4672 given 12 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 882
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 882 maxBurst: 882 weight: 150 TQ: 11
+request 74 music 4672 start executing
+request 74 music 4672 given 11 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 850
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 850 maxBurst: 850 weight: 150 TQ: 11
+request 74 music 4672 start executing
+request 74 music 4672 given 11 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 811
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 811 maxBurst: 811 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 804
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 804 maxBurst: 804 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 778
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 778 maxBurst: 778 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 756
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 756 maxBurst: 756 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 731
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 731 maxBurst: 731 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 701
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 701 maxBurst: 701 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 674
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 674 maxBurst: 674 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 635
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 635 maxBurst: 635 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 598
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 598 maxBurst: 598 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 576
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 576 maxBurst: 576 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 543
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 543 maxBurst: 543 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 511
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 511 maxBurst: 511 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 477
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 477 maxBurst: 477 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 443
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 443 maxBurst: 443 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 421
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 421 maxBurst: 421 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 393
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 393 maxBurst: 393 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 368
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 368 maxBurst: 368 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 337
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 337 maxBurst: 337 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 300
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 300 maxBurst: 300 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 280
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 280 maxBurst: 280 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 256
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 256 maxBurst: 256 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 227
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 227 maxBurst: 227 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 200
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 200 maxBurst: 200 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 162
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 162 maxBurst: 162 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 157
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 157 maxBurst: 157 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 128
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 128 maxBurst: 128 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 106
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 106 maxBurst: 106 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 81
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 81 maxBurst: 81 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 46
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 46 maxBurst: 46 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+current max burst time: 14
+request 74 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 14 maxBurst: 14 weight: 150 TQ: 10
+request 74 music 4672 start executing
+request 74 music 4672 given 10 ms to execute
+request 74 exceeded TQ and interrupted
+task: request 74 completed
+current max burst time: 934
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 934 maxBurst: 934 weight: 150 TQ: 12
+request 75 music 4672 start executing
+request 75 music 4672 given 12 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 882
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 882 maxBurst: 882 weight: 150 TQ: 11
+request 75 music 4672 start executing
+request 75 music 4672 given 11 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 851
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 851 maxBurst: 851 weight: 150 TQ: 11
+request 75 music 4672 start executing
+request 75 music 4672 given 11 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 810
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 810 maxBurst: 810 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 773
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 773 maxBurst: 773 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 752
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 752 maxBurst: 752 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 724
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 724 maxBurst: 724 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 707
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 707 maxBurst: 707 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 686
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 686 maxBurst: 686 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 670
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 670 maxBurst: 670 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 654
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 654 maxBurst: 654 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 637
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 637 maxBurst: 637 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 607
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 607 maxBurst: 607 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 578
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 578 maxBurst: 578 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 557
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 557 maxBurst: 557 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 530
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 530 maxBurst: 530 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 503
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 503 maxBurst: 503 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 478
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 478 maxBurst: 478 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 454
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 454 maxBurst: 454 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 423
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 423 maxBurst: 423 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 411
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 411 maxBurst: 411 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 390
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 390 maxBurst: 390 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 368
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 368 maxBurst: 368 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 336
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 336 maxBurst: 336 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 306
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 306 maxBurst: 306 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 267
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 267 maxBurst: 267 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 260
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 260 maxBurst: 260 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 230
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 230 maxBurst: 230 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 205
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 205 maxBurst: 205 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 183
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 183 maxBurst: 183 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 163
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 163 maxBurst: 163 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 136
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 136 maxBurst: 136 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 112
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 112 maxBurst: 112 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 78
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 78 maxBurst: 78 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 57
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 57 maxBurst: 57 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 33
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 33 maxBurst: 33 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 given 10 ms to execute
+request 75 exceeded TQ and interrupted
+current max burst time: 10
+request 75 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 10 maxBurst: 10 weight: 150 TQ: 10
+request 75 music 4672 start executing
+request 75 music 4672 allowed to fully execute
+current max burst time: 934
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 934 maxBurst: 934 weight: 150 TQ: 12
+request 76 music 4672 start executing
+request 76 music 4672 given 12 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 878
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 878 maxBurst: 878 weight: 150 TQ: 11
+request 76 music 4672 start executing
+request 76 music 4672 given 11 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 858
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 858 maxBurst: 858 weight: 150 TQ: 11
+request 76 music 4672 start executing
+request 76 music 4672 given 11 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 830
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 830 maxBurst: 830 weight: 150 TQ: 11
+request 76 music 4672 start executing
+request 76 music 4672 given 11 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 801
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 801 maxBurst: 801 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 780
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 780 maxBurst: 780 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 750
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 750 maxBurst: 750 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 725
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 725 maxBurst: 725 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 703
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 703 maxBurst: 703 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 678
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 678 maxBurst: 678 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 647
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 647 maxBurst: 647 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 610
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 610 maxBurst: 610 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 584
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 584 maxBurst: 584 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 553
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 553 maxBurst: 553 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 530
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 530 maxBurst: 530 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 505
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 505 maxBurst: 505 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 475
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 475 maxBurst: 475 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 447
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 447 maxBurst: 447 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 413
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 413 maxBurst: 413 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 383
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 383 maxBurst: 383 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 357
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 357 maxBurst: 357 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 335
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 335 maxBurst: 335 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 309
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 309 maxBurst: 309 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 280
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 280 maxBurst: 280 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 257
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 257 maxBurst: 257 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 225
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 225 maxBurst: 225 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 190
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 190 maxBurst: 190 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 164
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 164 maxBurst: 164 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 132
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 132 maxBurst: 132 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 102
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 102 maxBurst: 102 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 81
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 81 maxBurst: 81 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 57
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 57 maxBurst: 57 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 35
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 35 maxBurst: 35 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 given 10 ms to execute
+request 76 exceeded TQ and interrupted
+current max burst time: 8
+request 76 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 8 maxBurst: 8 weight: 150 TQ: 10
+request 76 music 4672 start executing
+request 76 music 4672 allowed to fully execute
+current max burst time: 934
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 934 maxBurst: 934 weight: 150 TQ: 12
+request 77 music 4672 start executing
+request 77 music 4672 given 12 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 886
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 886 maxBurst: 886 weight: 150 TQ: 11
+request 77 music 4672 start executing
+request 77 music 4672 given 11 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 864
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 864 maxBurst: 864 weight: 150 TQ: 11
+request 77 music 4672 start executing
+request 77 music 4672 given 11 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 836
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 836 maxBurst: 836 weight: 150 TQ: 11
+request 77 music 4672 start executing
+request 77 music 4672 given 11 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 803
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 803 maxBurst: 803 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 756
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 756 maxBurst: 756 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 753
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 753 maxBurst: 753 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 725
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 725 maxBurst: 725 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 697
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 697 maxBurst: 697 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 664
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 664 maxBurst: 664 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 626
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 626 maxBurst: 626 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 615
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 615 maxBurst: 615 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 585
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 585 maxBurst: 585 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 558
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 558 maxBurst: 558 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 534
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 534 maxBurst: 534 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 507
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 507 maxBurst: 507 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 476
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 476 maxBurst: 476 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 452
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 452 maxBurst: 452 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 426
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 426 maxBurst: 426 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 400
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 400 maxBurst: 400 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 378
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 378 maxBurst: 378 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 344
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 344 maxBurst: 344 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 311
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 311 maxBurst: 311 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 296
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 296 maxBurst: 296 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 270
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 270 maxBurst: 270 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 247
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 247 maxBurst: 247 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 215
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 215 maxBurst: 215 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 185
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 185 maxBurst: 185 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 153
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 153 maxBurst: 153 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 122
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 122 maxBurst: 122 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 97
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 97 maxBurst: 97 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 66
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 66 maxBurst: 66 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 37
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 37 maxBurst: 37 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 given 10 ms to execute
+request 77 exceeded TQ and interrupted
+current max burst time: 0
+request 77 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 0 maxBurst: 0 weight: 150 TQ: 10
+request 77 music 4672 start executing
+request 77 music 4672 allowed to fully execute
+current max burst time: 934
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 934 maxBurst: 934 weight: 150 TQ: 12
+request 78 music 4672 start executing
+request 78 music 4672 given 12 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 882
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 882 maxBurst: 882 weight: 150 TQ: 11
+request 78 music 4672 start executing
+request 78 music 4672 given 11 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 852
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 852 maxBurst: 852 weight: 150 TQ: 11
+request 78 music 4672 start executing
+request 78 music 4672 given 11 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 818
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 818 maxBurst: 818 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 778
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 778 maxBurst: 778 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 750
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 750 maxBurst: 750 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 727
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 727 maxBurst: 727 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 703
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 703 maxBurst: 703 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 680
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 680 maxBurst: 680 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 650
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 650 maxBurst: 650 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 615
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 615 maxBurst: 615 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 588
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 588 maxBurst: 588 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 553
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 553 maxBurst: 553 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 550
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 550 maxBurst: 550 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 529
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 529 maxBurst: 529 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 490
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 490 maxBurst: 490 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 455
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 455 maxBurst: 455 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 416
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 416 maxBurst: 416 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 404
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 404 maxBurst: 404 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 387
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 387 maxBurst: 387 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 360
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 360 maxBurst: 360 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 336
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 336 maxBurst: 336 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 310
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 310 maxBurst: 310 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 277
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 277 maxBurst: 277 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 257
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 257 maxBurst: 257 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 235
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 235 maxBurst: 235 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 209
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 209 maxBurst: 209 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 184
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 184 maxBurst: 184 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 160
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 160 maxBurst: 160 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 129
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 129 maxBurst: 129 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 98
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 98 maxBurst: 98 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 59
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 59 maxBurst: 59 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 32
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 32 maxBurst: 32 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 given 10 ms to execute
+request 78 exceeded TQ and interrupted
+current max burst time: 7
+request 78 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 7 maxBurst: 7 weight: 150 TQ: 10
+request 78 music 4672 start executing
+request 78 music 4672 allowed to fully execute
+current max burst time: 934
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 934 maxBurst: 934 weight: 150 TQ: 12
+request 79 music 4672 start executing
+request 79 music 4672 given 12 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 883
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 883 maxBurst: 883 weight: 150 TQ: 11
+request 79 music 4672 start executing
+request 79 music 4672 given 11 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 855
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 855 maxBurst: 855 weight: 150 TQ: 11
+request 79 music 4672 start executing
+request 79 music 4672 given 11 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 828
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 828 maxBurst: 828 weight: 150 TQ: 11
+request 79 music 4672 start executing
+request 79 music 4672 given 11 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 806
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 806 maxBurst: 806 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 781
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 781 maxBurst: 781 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 749
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 749 maxBurst: 749 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 717
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 717 maxBurst: 717 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 702
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 702 maxBurst: 702 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 678
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 678 maxBurst: 678 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 650
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 650 maxBurst: 650 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 623
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 623 maxBurst: 623 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 586
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 586 maxBurst: 586 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 554
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 554 maxBurst: 554 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 531
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 531 maxBurst: 531 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 510
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 510 maxBurst: 510 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 488
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 488 maxBurst: 488 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 461
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 461 maxBurst: 461 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 433
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 433 maxBurst: 433 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 398
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 398 maxBurst: 398 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 354
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 354 maxBurst: 354 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 330
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 330 maxBurst: 330 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 303
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 303 maxBurst: 303 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 285
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 285 maxBurst: 285 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 258
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 258 maxBurst: 258 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 234
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 234 maxBurst: 234 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 209
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 209 maxBurst: 209 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 170
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 170 maxBurst: 170 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 157
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 157 maxBurst: 157 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 135
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 135 maxBurst: 135 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 105
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 105 maxBurst: 105 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to execute
+request 79 exceeded TQ and interrupted
+current max burst time: 78
+request 79 music size: 4672 enters queue   ---   queue size: 1
+avgBurst: 78 maxBurst: 78 weight: 150 TQ: 10
+request 79 music 4672 start executing
+request 79 music 4672 given 10 ms to
